@@ -1,6 +1,6 @@
 # 🛒 Marketing Campaign EDA
 
-**Author:** Bạn – Data Analyst Intern  
+**Author:** Navin - Data Passionate 
 
 ## 1️⃣ Mục tiêu dự án
 - Làm sạch & phân khúc khách hàng theo Income – Spending – Recency
