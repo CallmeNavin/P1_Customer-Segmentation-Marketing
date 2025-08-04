@@ -1,6 +1,6 @@
 # 📊 Customer Spending & Product Sales Dashboard – Power BI
 
-![Dashboard Overview](Screenshot 2025-08-04 210640.png)
+![Dashboard Overview](Pic1.png)
 
 ## 🔹 Overview
 
@@ -23,7 +23,7 @@ This **Power BI Dashboard** analyzes **customer spending behavior** and **produc
 - Line/Area Chart: **Product Category Trend Over Time**  
 - Dropdown Slicer: **Spending Segment**
 
-![Dashboard Overview](Screenshot 2025-08-04 210640.png)
+![Dashboard Overview](Pic1.png)
 
 ---
 
@@ -31,7 +31,7 @@ This **Power BI Dashboard** analyzes **customer spending behavior** and **produc
 - Horizontal Bar Chart: **Top 10 Customers by Spending**  
 - Horizontal Bar Chart: **Top 5 Products by Quantity Sold**
 
-![Deep Dive Dashboard](Screenshot 2025-08-04 210707.png)
+![Deep Dive Dashboard](Pic2.png)
 
 ---
 
