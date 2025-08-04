@@ -44,11 +44,6 @@ It is designed with **executive-friendly storytelling** in mind:
 
 ---
 
-## 📂 Project Structure
-
-
----
-
 ## 🚀 How to Use
 1. Clone this repository  
 2. Open `Customer_Spending_Dashboard.pbix` in Power BI Desktop  
