@@ -17,8 +17,9 @@ This dataset comes from a retail company that sells wine, gold products, meat, f
 - Generated a correlation matrix to explore relationships between income, total spending, and recency.
 **Result:** A clean dataset with engineered features, ready for analysis and dashboard creation in Power BI.
 
-  **3. Dashboard & Key Insights**
+**3. Dashboard & Key Insights**
 The Power BI dashboard visualizes customer spending behavior and product performance. It helps the business team quickly identify top customers, best-selling products, and overall spending trends.
+
 **Key Insights:**
 - Top 3 product categories (Wines, Meat, Gold) contribute ~85% of total product spending.
 - The best-selling product (Wines) alone accounts for ~50.4% of total spending.
