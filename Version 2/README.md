@@ -1,33 +1,43 @@
-  **1. Business Context & Problem Statement**
-This dataset comes from a retail company that sells wine, gold products, meat, fish, and sweets. The company aims to understand customer behavior in order to optimize its marketing campaigns. The business team wants to track total spending by month, analyze product category trends, and identify top customers and best-selling products. The goal of this analysis is to transform raw data into actionable insights that support data-driven marketing and sales strategies.
+# Customer Segmentation & Marketing Campaign Analysis
 
-  **2. Data Cleaning & Preparation**
+**Overview**
+This project analyzes customer data from a marketing campaign dataset to uncover spending patterns, segment customers, and provide insights for targeted marketing strategies.  
+Version **v2 (Enhanced)** includes improved data cleaning, outlier handling, and updated Power BI visualizations for clearer, more reliable insights.
 
-*Data Import and Initial Exploration*
-- Loaded the raw dataset (`marketing_campaign.csv`) into Google Colab and converted `Dt_Customer` to datetime format.  
-- Created `Days_Since_Customer` to calculate how long each customer has been with the company.
+**Objectives**
+- Understand customer demographics and purchasing behavior.
+- Segment customers based on **income**, **spending habits**, and **recency**.
+- Identify high-value customer groups for targeted campaigns.
+- Visualize data for better business decision-making.
 
-*Data Cleaning*
-- Removed rows with missing `Income` values.  
-- Calculated `Total_Spending` as the sum of spending across all product categories.  
-- Detected and removed outliers in `Income` using the IQR method.
+**Tech Stack**
+- Python: Data cleaning, preprocessing, outlier removal (IQR method).
+- Pandas, Matplotlib, Seaborn: Data manipulation & EDA.
+- Power BI: Interactive dashboards and visual insights.
 
-*Customer Segmentation*
-- Created 3-segment groups for `Income`, `Total_Spending`, and `Recency`.  
-- Enabled high-level customer segmentation to support marketing insights.
+**Dataset**
+- Original dataset: `marketing_campaign.csv`
+- Cleaned dataset after enhancement: `marketing_campaign_clean.csv`
+- Source: Kaggle – Marketing Campaign Dataset.
 
-Data Export for Visualization*
-- Saved the cleaned dataset for Power BI visualization.  
-- Generated a correlation matrix to explore relationships between income, total spending, and recency.
+**Data Cleaning & Enhancement**
+- Removed null values in key features (`Income`).
+- Converted `Dt_Customer` to `TenureDays`.
+- Applied IQR method to remove outliers in:
+  - Year_Birth
+  - Income
+  - Spending columns
+  - Purchase frequency columns
+- Reset indexes after data removal.
+- Final cleaned dataset ready for analysis and visualization.
 
-**Result:** A clean dataset with engineered features, ready for analysis and dashboard creation in Power BI.
+**Power BI Dashboard**
+- Customer Segmentation by Income, Spending, and Tenure.
+- Top Product Categories by total sales.
+- Customer Demographics distribution.
+- Purchasing Channels breakdown.
 
-**3. Dashboard & Key Insights**
-The Power BI dashboard visualizes customer spending behavior and product performance. It helps the business team quickly identify top customers, best-selling products, and overall spending trends.
-
-**Key Insights:**
-- Top 3 product categories (Wines, Meat, Gold) contribute ~85% of total product spending.
-- The best-selling product (Wines) alone accounts for ~50.4% of total spending.
-- Top 5 customers contributes around 52.1% of total revenue, showing high revenue concentration.
-- Spending peaked in August 2012 then remained stable in the following months.
-- Wines consistently dominates monthly spending (~50%), remaining the core revenue driver.
+**Key Insights**
+- Clearer segmentation after removing extreme outliers.
+- Spending patterns now better reflect typical customers rather than being skewed by VIP or data entry errors.
+- Improved balance in customer groups → more actionable marketing strategies.
