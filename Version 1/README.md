@@ -1,5 +1,9 @@
+# P1_Customer Segmentation Marketing
+
   **1. Business Context & Problem Statement**
 This dataset comes from a retail company that sells wine, gold products, meat, fish, and sweets. The company aims to understand customer behavior in order to optimize its marketing campaigns. The business team wants to track total spending by month, analyze product category trends, and identify top customers and best-selling products. The goal of this analysis is to transform raw data into actionable insights that support data-driven marketing and sales strategies.
+![Dashboard Visualization](https://github.com/CallmeNavin/P1_Customer-Segmentation-Marketing/blob/main/Version%201/Visualization/Dashboard.png)
+_Explore more insights in the full Power BI dashboard_
 
   **2. Data Cleaning & Preparation**
 
@@ -31,3 +35,11 @@ The Power BI dashboard visualizes customer spending behavior and product perform
 - Top 5 customers contributes around 52.1% of total revenue, showing high revenue concentration.
 - Spending peaked in August 2012 then remained stable in the following months.
 - Wines consistently dominates monthly spending (~50%), remaining the core revenue driver.
+
+**About Me**
+
+Hi, I'm Navin (Bao Vy) – an aspiring Data Analyst passionate about turning raw data into actionable business insights. I’m eager to contribute to data-driven decision making and help organizations translate analytics into business impact. For more details, please reach out at:
+
+🌐 LinkedIn: https://www.linkedin.com/in/navin826/
+
+📂 Portfolio: https://github.com/CallmeNavin/
