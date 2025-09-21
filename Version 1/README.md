@@ -1,7 +1,10 @@
 # P1_Customer Segmentation Marketing
 
-  **1. Business Context & Problem Statement**
-This dataset comes from a retail company that sells wine, gold products, meat, fish, and sweets. The company aims to understand customer behavior in order to optimize its marketing campaigns. The business team wants to track total spending by month, analyze product category trends, and identify top customers and best-selling products. The goal of this analysis is to transform raw data into actionable insights that support data-driven marketing and sales strategies.
+**1. Business Context & Problem Statement**
+
+- This dataset comes from a retail company that sells wine, gold products, meat, fish, and sweets. The company aims to understand customer behavior in order to optimize its marketing campaigns. The business team wants to track total spending by month, analyze product category trends, and identify top customers and best-selling products.
+- The goal of this analysis is to transform raw data into actionable insights that support data-driven marketing and sales strategies.
+
 ![Dashboard Visualization](https://github.com/CallmeNavin/P1_Customer-Segmentation-Marketing/blob/main/Version%201/Visualization/Dashboard.png)
 _Explore more insights in the full Power BI dashboard_
 
